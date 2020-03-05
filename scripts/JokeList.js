@@ -5,5 +5,8 @@ const contentTarget = document.querySelector(".jokeList")
 
 export const JokeList = () => {
     const jokes = useJokes()
-    contentTarget.innerHTML = jokes.map(Joke).join("")
+
+    for (const joke of jokes) {
+        contentTarget.innerHTML += Joke(joke)
+    }
 }

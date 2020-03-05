@@ -75,4 +75,6 @@ const dadJokes = [
     }
 ]
 
-export const useJokes = () => dadJokes.slice()
+export const useJokes = () => {
+    return dadJokes.slice()
+}
