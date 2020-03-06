@@ -31,7 +31,8 @@ const dadJokes = [
     },
     {
         "id": 7,
-        "question": "What do you call Santa’s little ubordinate clauses."
+        "question": "What do you call Santa’s little helper elves.",
+        "answer": "Subordinate clauses"
     },
     {
         "id": 8,
